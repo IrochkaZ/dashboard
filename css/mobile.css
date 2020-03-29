@@ -1,0 +1,143 @@
+@media only screen and (min-width : 320px) and (max-width : 480px){
+    header .container {
+        justify-content: center;
+        height: auto;
+        padding: 5px 0;
+    }
+    .logo{
+        width: 13%;
+        box-shadow: none;
+        padding: 0 2px;
+    }
+    .left-menu{
+        width: 45%;
+    }
+    .search{
+        width:40%;
+    }
+    .right-menu, .profile{
+        display:none;
+    }
+    .search form{
+        width:95%;
+    }
+    .search input{
+        font-size: 0.5em;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .container_2{
+        padding: 10px 0;
+        justify-content: space-around;
+        width: 100%;
+        flex-direction: row;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    nav ul{
+        flex-direction: row;
+    }
+    .rectangle{
+        display: none;
+    }
+    .rectangle2{
+        flex-direction: column;
+    }
+    .revenue_hour{
+        width: 100%;
+        padding: 5px 0;
+    }
+    .number{
+        justify-content: center;
+    }
+    .monthly_progress {
+        display: none;
+    }
+    .graphics_container{
+        width: 100%;
+        padding-top:0;xc
+    }
+    .left-block{
+        padding: 5px 0;
+        width: 100%;
+        margin: 5px 0;
+    }
+    .left-block h3{
+        width: auto;
+        margin-bottom: 10px;
+    }
+    .customers-photo{
+        display: none;
+    }
+    .left-block-text{
+        width: 91%;
+    }
+    .left-block-text article{
+        width: 100%;
+        border-left: none;
+        padding-left:0;
+        margin: 5px 0;
+    }
+    .left-block-text p{
+        padding: 5px 5px;
+    }
+    .line article p:first-child{
+        margin-bottom: 5px;
+    }
+    .todays-task{
+        display:none;
+    }
+    .right-block{
+        width: 100%;
+        margin: 0;
+    }
+    .progress, .shipments{
+        width:49%;
+        padding: 5px 0;
+    }
+    .progress img,.shipments img{
+        width: 50%;
+    }
+    .progress>p, .shipments>p{
+        font-size: 4vh;
+    }
+    .number{
+        width:auto;
+        font-size: 10px;
+    }
+    aside{
+        width:100%;
+    }
+    .chat_famous{
+        padding: 5px 0;
+        background-color:#000;
+    }
+    .famous{
+        background-color: #000;
+    }
+    .imgsosial img{
+        width: 60%;
+    }
+    .icon-sosial{
+        flex-wrap: nowrap;
+        width: 90%;
+    }
+    .imgsosial{
+        padding:0;
+    }
+    .social{
+        padding: 10px;
+        flex-direction: row;
+    }
+    .chat_famous:last-child{
+        border-bottom: 1px solid #000;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .left-block, .right-block{
+        width:100%;
+}
